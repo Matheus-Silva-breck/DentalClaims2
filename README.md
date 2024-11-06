@@ -42,8 +42,8 @@ O projeto está organizado em diversas pastas e arquivos para melhor manutençã
 1. **Clone o repositório**
  -- Clone o repositório do projeto para a sua máquina local:
    
-    **-- git clone [https://github.com/Matheus-Silva-breck/DentalClaims2.git](https://github.com/Matheus-Silva-breck/DentalClaims2.git)**
-    **-- cd DentalClaims**
+    -- git clone [https://github.com/Matheus-Silva-breck/DentalClaims2.git](https://github.com/Matheus-Silva-breck/DentalClaims2.git)
+    -- cd DentalClaims
 
 2. **Instale as dependências**
  -- Execute o comando para restaurar os pacotes do projeto:
