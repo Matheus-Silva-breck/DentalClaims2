@@ -40,30 +40,30 @@ O projeto está organizado em diversas pastas e arquivos para melhor manutençã
 ## **Configuração e Instalação**
 
 1. **Clone o repositório**
-   Clone o repositório do projeto para a sua máquina local:
+ -- Clone o repositório do projeto para a sua máquina local:
    
-    git clone https://github.com/SeuUsuario/DentalClaims.git
-    cd DentalClaims
+    **-- git clone [https://github.com/Matheus-Silva-breck/DentalClaims2.git](https://github.com/Matheus-Silva-breck/DentalClaims2.git)**
+    **-- cd DentalClaims**
 
 2. **Instale as dependências**
-  Execute o comando para restaurar os pacotes do projeto:
+ -- Execute o comando para restaurar os pacotes do projeto:
 
-    dotnet restore
+    **--dotnet restore**
 
 3. **Configure o banco de dados**
-  Abra o arquivo appsettings.json e configure a connection string com as credenciais do seu banco de dados Oracle:
+  -- Abra o arquivo appsettings.json e configure a connection string com as credenciais do seu banco de dados Oracle:
 
-    "ConnectionStrings": {
+  **--  "ConnectionStrings": {
     "DefaultConnection": "User Id=seu_usuario;Password=sua_senha;Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle.fiap.com.br)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SID=ORCL)));"
-}
+}**
 
 4. **Crie o banco de dados e as tabelas**
-  Com o banco de dados configurado, execute os seguintes comandos para aplicar as migrações e criar as tabelas no banco:
+ -- Com o banco de dados configurado, execute os seguintes comandos para aplicar as migrações e criar as tabelas no banco:
 
-    dotnet ef migrations add InitialCreate
-    dotnet ef database update
+  **--dotnet ef migrations add InitialCreate**
+  **--dotnet ef database update**
 
-Se você estiver usando Oracle, verifique se as permissões de banco estão configuradas corretamente para a criação de objetos no banco.
+**Se você estiver usando Oracle, verifique se as permissões de banco estão configuradas corretamente para a criação de objetos no banco.**
 
 ## Rodando a Aplicação
 **Depois de configurar o banco de dados e as dependências, execute o projeto com o seguinte comando:**
